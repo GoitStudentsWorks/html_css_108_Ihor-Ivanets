@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Ihor-Ivanets/ --emptyOutDir",
+    "build": "vite build --base=/html_css_108_Ihor-Ivanets/",
     "preview": "vite preview"
   },
   "devDependencies": {
