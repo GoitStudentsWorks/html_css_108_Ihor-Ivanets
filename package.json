@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-group03/ --emptyOutDir",
+    "build": "vite build --base=/Ihor-Ivanets/ --emptyOutDir",
     "preview": "vite preview"
   },
   "devDependencies": {
