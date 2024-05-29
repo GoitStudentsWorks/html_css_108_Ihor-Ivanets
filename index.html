@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/Ihor-Ivanets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/Ihor-Ivanets/favicon-16x16.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Online store with Ukrainian shirts Vyshyvanka. All products are handmade."
+    />
+    <title>Vyshyvanka Vibes</title>
+    
+    <script type="module" crossorigin src="/Ihor-Ivanets/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/Ihor-Ivanets/assets/vendor-2d6b8d19.js">
+    <link rel="stylesheet" href="/Ihor-Ivanets/assets/index-ccb19fdb.css">
+  </head>
+  <body>
+    <header class="first-header">
+  <div class="container container-header">
+    <nav class="header-nav">
+      <a class="logo" href="./index.html">
+        <img
+          class="logo-img"
+          src="/Ihor-Ivanets/assets/logo-3d215253.svg"
+          alt="logo"
+          width="44"
+          height="40"
+        />
+      </a>
+
+      <ul class="header-menu">
+        <li class="header-menu-item">
+          <a class="header-menu-link link-underline" href="#about">ABOUT US</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link link-underline" href="#collection"
+            >OUR COLLECTION</a
+          >
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link link-underline" href="#order"
+            >CUSTOMER ORDER</a
+          >
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link link-underline" href="#testimonials"
+            >TESTIMONIALS</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <address class="header-contacts">
+      <a class="header-contacts-link" href="tel:+380684439426">
+        +380(68)443-94-26
+      </a>
+    </address>
+
+    <ul class="header-social">
+      <li class="header-social-item">
+        <a
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          class="header-social-link"
+          aria-label="facebook"
+        >
+          <svg class="header-social-icon" width="28" height="28">
+            <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-social-item">
+        <a
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          class="header-social-link"
+          aria-label="instagram"
+        >
+          <svg class="header-social-icon" width="28" height="28">
+            <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-social-item">
+        <a
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          class="header-social-link"
+          aria-label="youtube"
+        >
+          <svg class="header-social-icon" width="28" height="28">
+            <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <button
+      class="header-btn-open"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      type="button"
+      aria-label="open mobile menu"
+    >
+      <svg class="header-btn-open-icon" width="36" height="44">
+        <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-btn-open"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+    <main>
+      <section class="hero">
+  <div class="container hero-container">
+    <div class="hero-tablet-wrapper">
+      <div class="hero-mobile-wrapper">
+        <h1 class="hero-tagline">
+          Reviving the traditional
+          <span class="accent-color">Ukrainian</span> artistry in every stitch.
+        </h1>
+        <a href="#order" class="btn hero-button"
+          >Order<svg class="btn-icon hero-btn-icon" width="24" height="16">
+            <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-arrow"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="hero-made-wrapper">
+        <svg class="hero-made-icon" width="52" height="51">
+          <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-star"></use>
+        </svg>
+        <p class="hero-made-text">all embroidery is made by hand</p>
+      </div>
+    </div>
+    <picture>
+      <source
+        srcset="/Ihor-Ivanets/assets/girl-desktop-0314831b.webp 1x, /Ihor-Ivanets/assets/girl-desktop@2x-626cd230.webp 2x"
+        media="(min-width: 1280px)"
+        type="image/webp"
+      />
+      <source
+        srcset="/Ihor-Ivanets/assets/girl-desktop-7c119566.jpg 1x, /Ihor-Ivanets/assets/girl-desktop@2x-a91651e9.jpg 2x"
+        media="(min-width: 1280px)"
+        type="image/jpg"
+      />
+      <source
+        srcset="/Ihor-Ivanets/assets/girl-tablet-3dc7f75f.webp 1x, /Ihor-Ivanets/assets/girl-tablet@2x-379a3fa7.webp 2x"
+        media="(min-width: 768px)"
+        type="image/webp"
+      />
+      <source
+        srcset="/Ihor-Ivanets/assets/girl-tablet-c7ef4583.jpg 1x, /Ihor-Ivanets/assets/girl-tablet@2x-2d6d76b5.jpg 2x"
+        media="(min-width: 768px)"
+        type="image/jpg"
+      />
+      <source
+        srcset="/Ihor-Ivanets/assets/girl-mobile-f58b8b47.webp 1x, /Ihor-Ivanets/assets/girl-mobile@2x-eb620f39.webp 2x"
+        media="(max-width: 767px)"
+        type="image/webp"
+      />
+      <source
+        srcset="/Ihor-Ivanets/assets/girl-mobile-d3022f16.jpg 1x, /Ihor-Ivanets/assets/girl-mobile@2x-efbf2e5f.jpg 2x"
+        media="(max-width: 767px)"
+        type="image/jpg"
+      />
+
+      <img
+        class="hero-img"
+        src="/Ihor-Ivanets/assets/girl-desktop-7c119566.jpg"
+        alt="Girl wearing a vyshyvanka"
+      />
+    </picture>
+  </div>
+
+  <button
+    class="btn-scroll-top is-btnshow is-btnshow-hide"
+    aria-label="Button scroll top"
+  >
+    <svg class="btn-scroll-top-icon" width="45" height="45">
+      <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-arrow-top"></use>
+    </svg>
+  </button>
+</section>
+
+      <section class="about" id="about">
+  <div class="container container-about">
+    <div class="about-content-wrapper">
+      <h2 class="section-title about-title">About Us</h2>
+      <div class="about-text-wrapper">
+        <p class="about-text">
+          The store "Vyshyvanka Vibes" is a place where traditional Ukrainian
+          vyshyvanka comes to life with new zest and style. Our store offers a
+          wide selection of high-quality and authentic embroidery, which
+          combines the elegance of traditional needlework and modern design.
+        </p>
+        <p class="about-text">
+          In "Vyshyvanka Vibes" you will find various models of embroidery, from
+          classic to modern, corresponding to the latest fashion trends. Our
+          embroidery is made using natural fabrics and is embroidered by highly
+          qualified craftsmen who convey the beauty of Ukrainian culture in
+          every detail. We believe that vyshyvanka is not just clothing, but a
+          symbol of national pride, the heritage of our ancestors and a way of
+          expressing one's individuality. Each embroidery from "Vyshyvanka
+          Vibes" has its own unique history and symbolism, which gives it a
+          special meaning.
+        </p>
+      </div>
+    </div>
+    <div class="about-images">
+      <picture>
+        <source
+          srcset="/Ihor-Ivanets/assets/girl-and-boy-tablet-desktop1448-e1cd139b.webp 1x, /Ihor-Ivanets/assets/girl-and-boy-tablet-desktop1448@2x-f2823420.webp 2x"
+          media="(min-width: 1440px)"
+          type="image/webp"
+        />
+        <source
+          srcset="/Ihor-Ivanets/assets/girl-and-boy-tablet-desktop1448-739832f0.jpg 1x, /Ihor-Ivanets/assets/girl-and-boy-tablet-desktop1448@2x-f0101d37.jpg 2x"
+          media="(min-width: 1440px)"
+          type="image/jpg"
+        />
+        <source
+          srcset="/Ihor-Ivanets/assets/girl-and-boy-desktop1280-4d30698f.webp 1x, /Ihor-Ivanets/assets/girl-and-boy-desktop1280@2x-0be00d0f.webp 2x"
+          media="(min-width: 1280px)"
+          type="image/webp"
+        />
+        <source
+          srcset="/Ihor-Ivanets/assets/girl-and-boy-desktop1280-33ea22ce.jpg 1x, /Ihor-Ivanets/assets/girl-and-boy-desktop1280@2x-29fd834c.jpg 2x"
+          media="(min-width: 1280px)"
+          type="image/jpg"
+        />
+
+        <source
+          srcset="/Ihor-Ivanets/assets/girl-and-boy-tablet-desktop1448-e1cd139b.webp 1x, /Ihor-Ivanets/assets/girl-and-boy-tablet-desktop1448@2x-f2823420.webp 2x"
+          media="(min-width: 768px)"
+          type="image/webp"
+        />
+        <source
+          srcset="/Ihor-Ivanets/assets/girl-and-boy-tablet-desktop1448-739832f0.jpg 1x, /Ihor-Ivanets/assets/girl-and-boy-tablet-desktop1448@2x-f0101d37.jpg 2x"
+          media="(min-width: 768px)"
+          type="image/jpg"
+        />
+
+        <source
+          media="(max-width: 767px)"
+          srcset="/Ihor-Ivanets/assets/girl-and-boy-mobile-985fa011.webp 1x, /Ihor-Ivanets/assets/girl-and-boy-mobile@2x-80f9aa08.webp 2x"
+          type="image/webp"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/Ihor-Ivanets/assets/girl-and-boy-mobile-1d7d6210.jpg 1x, /Ihor-Ivanets/assets/girl-and-boy-mobile@2x-380ef3d8.jpg 2x"
+          type="image/jpg"
+        />
+
+        <img
+          src="/Ihor-Ivanets/assets/girl-and-boy-tablet-desktop1448-739832f0.jpg"
+          alt="girl-and-boy"
+          class="about-img"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <section class="our-collection" id="collection">
+  <div class="container collection-container">
+    <h2 class="section-title collection-title">Our Collection</h2>
+    <ul class="collection-list">
+      <li class="collection-list-item">
+        <div class="collection-img">
+          <picture>
+            <source
+              srcset="/Ihor-Ivanets/assets/august-poltava-womens-blousering-desktop1440-ff2c6642.webp 1x, /Ihor-Ivanets/assets/august-poltava-womens-blousering-desktop1440@2x-3ff6270d.webp 2x"
+              media="(min-width: 1440px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/august-poltava-womens-blousering-desktop1440-470cd534.jpg 1x, /Ihor-Ivanets/assets/august-poltava-womens-blousering-desktop1440@2x-2762f160.jpg 2x"
+              media="(min-width: 1440px)"
+              type="image/jpg"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/august-poltava-womens-blousering-desktop1280-060665fc.webp 1x, /Ihor-Ivanets/assets/august-poltava-womens-blousering-desktop1280@2x-d8825db3.webp 2x"
+              media="(min-width: 1280px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/august-poltava-womens-blousering-desktop1280-af352c50.jpg 1x, /Ihor-Ivanets/assets/august-poltava-womens-blousering-desktop1280@2x-1ebf8fa8.jpg 2x"
+              media="(min-width: 1280px)"
+              type="image/jpg"
+            />
+
+            <source
+              srcset="/Ihor-Ivanets/assets/august-poltava-womens-blousering-tablet-08f7556d.webp 1x, /Ihor-Ivanets/assets/august-poltava-womens-blousering-tablet@2x-0f695383.webp 2x"
+              media="(min-width: 768px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/august-poltava-womens-blousering-tablet-c6e775bd.jpg 1x, /Ihor-Ivanets/assets/august-poltava-womens-blousering-tablet@2x-376e4283.jpg 2x"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+
+            <source
+              srcset="/Ihor-Ivanets/assets/august-poltava-womens-blousering-mobile-5b9d4850.webp 1x, /Ihor-Ivanets/assets/august-poltava-womens-blousering-mobile@2x-917d07f4.webp 2x"
+              media="(max-width: 767px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/august-poltava-womens-blousering-mobile-d6e2e987.jpg 1x, /Ihor-Ivanets/assets/august-poltava-womens-blousering-mobile@2x-c87c7d9c.jpg 2x"
+              media="(max-width: 767px)"
+              type="image/jpg"
+            />
+
+            <img
+              src="/Ihor-Ivanets/assets/august-poltava-womens-blousering-desktop1440-470cd534.jpg"
+              alt="AUGUST Poltava women's blouseRING"
+              class="collection-image"
+            />
+          </picture>
+        </div>
+        <div class="collection-h-p">
+          <h3 class="collection-list-title">
+            AUGUST Poltava women's blouseRING
+          </h3>
+          <p class="collection-list-text">3300 UAH</p>
+        </div>
+        <div class="collection-item-overlay">
+          <button class="collection-btn btn" type="button">
+            Buy<svg class="btn-icon hero-btn-icon" width="24" height="16">
+              <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+      <li class="collection-list-item">
+        <div class="collection-img">
+          <picture>
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-gorgany-desktop1440-7d9ee7c9.webp 1x, /Ihor-Ivanets/assets/womens-blouse-gorgany-desktop1440@2x-1a632b59.webp 2x"
+              media="(min-width: 1440px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-gorgany-desktop1440-d036465c.jpg 1x, /Ihor-Ivanets/assets/womens-blouse-gorgany-desktop1440@2x-688a1208.jpg 2x"
+              media="(min-width: 1440px)"
+              type="image/jpg"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-gorgany-desktop1280-0b38486d.webp 1x, /Ihor-Ivanets/assets/womens-blouse-gorgany-desktop1280@2x-8339f9b1.webp 2x"
+              media="(min-width: 1280px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-gorgany-desktop1280-294a900c.jpg 1x, /Ihor-Ivanets/assets/womens-blouse-gorgany-desktop1280@2x-cc8f07d2.jpg 2x"
+              media="(min-width: 1280px)"
+              type="image/jpg"
+            />
+
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-gorgany-tablet-c004943a.webp 1x, /Ihor-Ivanets/assets/womens-blouse-gorgany-tablet@2x-47694ab5.webp 2x"
+              media="(min-width: 768px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-gorgany-tablet-580d7824.jpg 1x, /Ihor-Ivanets/assets/womens-blouse-gorgany-tablet@2x-925ced62.jpg 2x"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-gorgany-mobile-a1de5ab1.webp 1x, /Ihor-Ivanets/assets/womens-blouse-gorgany-mobile@2x-6ecb41cf.webp 2x"
+              media="(max-width: 767px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-gorgany-mobile-edfdba2c.jpg 1x, /Ihor-Ivanets/assets/womens-blouse-gorgany-mobile@2x-7a2081e4.jpg 2x"
+              media="(max-width: 767px)"
+              type="image/jpg"
+            />
+
+            <img
+              src="/Ihor-Ivanets/assets/womens-blouse-gorgany-desktop1440-d036465c.jpg"
+              alt="Women's blouse Gorgany"
+              class="collection-image"
+            />
+          </picture>
+        </div>
+        <div class="collection-h-p">
+          <h3 class="collection-list-title">Women's blouse Gorgany</h3>
+          <p class="collection-list-text">3350 UAH</p>
+        </div>
+        <div class="collection-item-overlay">
+          <button class="collection-btn btn" type="button">
+            Buy<svg class="btn-icon hero-btn-icon" width="24" height="16">
+              <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+      <li class="collection-list-item">
+        <div class="collection-img">
+          <picture>
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-crimea-desktop1440-e2330bcd.webp 1x, /Ihor-Ivanets/assets/womens-blouse-crimea-desktop1440@2x-a4d21c10.webp 2x"
+              media="(min-width: 1440px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-crimea-desktop1440-9105009a.jpg 1x, /Ihor-Ivanets/assets/womens-blouse-crimea-desktop1440@2x-d6b74bb6.jpg 2x"
+              media="(min-width: 1440px)"
+              type="image/jpg"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-crimea-desktop1280-5947007f.webp 1x, /Ihor-Ivanets/assets/womens-blouse-crimea-desktop1280@2x-7b62434e.webp 2x"
+              media="(min-width: 1280px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-crimea-desktop1280-cfe3a9b6.jpg 1x, /Ihor-Ivanets/assets/womens-blouse-crimea-desktop1280@2x-dde5bcdd.jpg 2x"
+              media="(min-width: 1280px)"
+              type="image/jpg"
+            />
+
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-crimea-tablet-c7447745.webp 1x, /Ihor-Ivanets/assets/womens-blouse-crimea-tablet@2x-b165b269.webp 2x"
+              media="(min-width: 768px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-crimea-tablet-b0757f5a.jpg 1x, /Ihor-Ivanets/assets/womens-blouse-crimea-tablet@2x-b3136adb.jpg 2x"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-crimea-mobile-e7dbc266.webp 1x, /Ihor-Ivanets/assets/womens-blouse-crimea-mobile@2x-64b881d1.webp 2x"
+              media="(max-width: 767px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/womens-blouse-crimea-mobile-75cf50a6.jpg 1x, /Ihor-Ivanets/assets/womens-blouse-crimea-mobile@2x-a384f3fd.jpg 2x"
+              media="(max-width: 767px)"
+              type="image/jpg"
+            />
+
+            <img
+              src="/Ihor-Ivanets/assets/womens-blouse-crimea-desktop1440-9105009a.jpg"
+              alt="Women's blouse Crimea"
+              class="collection-image"
+            />
+          </picture>
+        </div>
+        <div class="collection-h-p">
+          <h3 class="collection-list-title">Women's blouse Crimea</h3>
+          <p class="collection-list-text">4000 UAH</p>
+        </div>
+        <div class="collection-item-overlay">
+          <button class="collection-btn btn" type="button">
+            Buy<svg class="btn-icon hero-btn-icon" width="24" height="16">
+              <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+      <li class="collection-list-item">
+        <div class="collection-img">
+          <picture>
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-verkhovina-desktop1440-56a3e3eb.webp 1x, /Ihor-Ivanets/assets/mens-shirt-verkhovina-desktop1440@2x-822e94b7.webp 2x"
+              media="(min-width: 1440px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-verkhovina-desktop1440-5e3b85f6.jpg 1x, /Ihor-Ivanets/assets/mens-shirt-verkhovina-desktop1440@2x-2b9cb10c.jpg 2x"
+              media="(min-width: 1440px)"
+              type="image/jpg"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-verkhovina-desktop1280-a2df931c.webp 1x, /Ihor-Ivanets/assets/mens-shirt-verkhovina-desktop1280@2x-916fd2f8.webp 2x"
+              media="(min-width: 1280px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-verkhovina-desktop1280-fc0a0881.jpg 1x, /Ihor-Ivanets/assets/mens-shirt-verkhovina-desktop1280@2x-34dbebe6.jpg 2x"
+              media="(min-width: 1280px)"
+              type="image/jpg"
+            />
+
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-verkhovina-tablet-326083f8.webp 1x, /Ihor-Ivanets/assets/mens-shirt-verkhovina-tablet@2x-cc8bd86e.webp 2x"
+              media="(min-width: 768px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-verkhovina-tablet-402799c9.jpg 1x, /Ihor-Ivanets/assets/mens-shirt-verkhovina-tablet@2x-33ac7280.jpg 2x"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-verkhovina-mobile-a0ea2f6e.webp 1x, /Ihor-Ivanets/assets/mens-shirt-verkhovina-mobile@2x-ba83ffd0.webp 2x"
+              media="(max-width: 767px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-verkhovina-mobile-4a851c83.jpg 1x, /Ihor-Ivanets/assets/mens-shirt-verkhovina-mobile@2x-f2932ad5.jpg 2x"
+              media="(max-width: 767px)"
+              type="image/jpg"
+            />
+
+            <img
+              src="/Ihor-Ivanets/assets/mens-shirt-verkhovina-desktop1440-5e3b85f6.jpg"
+              alt="Men's shirt Verkhovina"
+              class="collection-image"
+            />
+          </picture>
+        </div>
+        <div class="collection-h-p">
+          <h3 class="collection-list-title">Men's shirt Verkhovina</h3>
+          <p class="collection-list-text">3100 UAH</p>
+        </div>
+        <div class="collection-item-overlay">
+          <button class="collection-btn btn" type="button">
+            Buy<svg class="btn-icon hero-btn-icon" width="24" height="16">
+              <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+      <li class="collection-list-item">
+        <div class="collection-img">
+          <picture>
+            <source
+              srcset="/Ihor-Ivanets/assets/mountain-mens-shirt-desktop1440-8cac2641.webp 1x, /Ihor-Ivanets/assets/mountain-mens-shirt-desktop1440@2x-41e5d1fe.webp 2x"
+              media="(min-width: 1440px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mountain-mens-shirt-desktop1440-fd0fc796.jpg 1x, /Ihor-Ivanets/assets/mountain-mens-shirt-desktop1440@2x-58bcc942.jpg 2x"
+              media="(min-width: 1440px)"
+              type="image/jpg"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mountain-mens-shirt-desktop1280-567fb0d9.webp 1x, /Ihor-Ivanets/assets/mountain-mens-shirt-desktop1280@2x-0173478d.webp 2x"
+              media="(min-width: 1280px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mountain-mens-shirt-desktop1280-af87217f.jpg 1x, /Ihor-Ivanets/assets/mountain-mens-shirt-desktop1280@2x-5f3b38ee.jpg 2x"
+              media="(min-width: 1280px)"
+              type="image/jpg"
+            />
+
+            <source
+              srcset="/Ihor-Ivanets/assets/mountain-mens-shirt-tablet-16bd01ea.webp 1x, /Ihor-Ivanets/assets/mountain-mens-shirt-tablet@2x-7242f27f.webp 2x"
+              media="(min-width: 768px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mountain-mens-shirt-tablet-4aaea5e6.jpg 1x, /Ihor-Ivanets/assets/mountain-mens-shirt-tablet@2x-fe736dad.jpg 2x"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+
+            <source
+              srcset="/Ihor-Ivanets/assets/mountain-mens-shirt-mobile-558abf8c.webp 1x, /Ihor-Ivanets/assets/mountain-mens-shirt-mobile@2x-5508a482.webp 2x"
+              media="(max-width: 767px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mountain-mens-shirt-mobile-11c24e9b.jpg 1x, /Ihor-Ivanets/assets/mountain-mens-shirt-mobile@2x-62e6fa70.jpg 2x"
+              media="(max-width: 767px)"
+              type="image/jpg"
+            />
+
+            <img
+              src="/Ihor-Ivanets/assets/mountain-mens-shirt-desktop1440-fd0fc796.jpg"
+              alt="Mountain men's shirt"
+              class="collection-image"
+            />
+          </picture>
+        </div>
+        <div class="collection-h-p">
+          <h3 class="collection-list-title">Mountain men's shirt</h3>
+          <p class="collection-list-text">3300 UAH</p>
+        </div>
+        <div class="collection-item-overlay">
+          <button class="collection-btn btn" type="button">
+            Buy<svg class="btn-icon hero-btn-icon" width="24" height="16">
+              <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+      <li class="collection-list-item">
+        <div class="collection-img">
+          <picture>
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-yasen-dekstop1440-a2fd691c.webp 1x, /Ihor-Ivanets/assets/mens-shirt-yasen-dekstop1440@2x-cbe3d108.webp 2x"
+              media="(min-width: 1440px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-yasen-dekstop1440-766a05d5.jpg 1x, /Ihor-Ivanets/assets/mens-shirt-yasen-dekstop1440@2x-00200ed9.jpg 2x"
+              media="(min-width: 1440px)"
+              type="image/jpg"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-yasen-dekstop1280-3fc265f7.webp 1x, /Ihor-Ivanets/assets/mens-shirt-yasen-dekstop1280@2x-beb9bf4e.webp 2x"
+              media="(min-width: 1280px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-yasen-dekstop1280-33e8c1ef.jpg 1x, /Ihor-Ivanets/assets/mens-shirt-yasen-dekstop1280@2x-b9166b8e.jpg 2x"
+              media="(min-width: 1280px)"
+              type="image/jpg"
+            />
+
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-yasen-tablet-be3ca335.webp 1x, /Ihor-Ivanets/assets/mens-shirt-yasen-tablet@2x-278e3ea7.webp 2x"
+              media="(min-width: 768px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-yasen-tablet-babde7de.jpg 1x, /Ihor-Ivanets/assets/mens-shirt-yasen-tablet@2x-115fdca4.jpg 2x"
+              media="(min-width: 768px)"
+              type="image/jpg"
+            />
+
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-yasen-mobile-184df3fb.webp 1x, /Ihor-Ivanets/assets/mens-shirt-yasen-mobile@2x-f1b7898a.webp 2x"
+              media="(max-width: 767px)"
+              type="image/webp"
+            />
+            <source
+              srcset="/Ihor-Ivanets/assets/mens-shirt-yasen-mobile-e70de4ae.jpg 1x, /Ihor-Ivanets/assets/mens-shirt-yasen-mobile@2x-4f68911e.jpg 2x"
+              media="(max-width: 767px)"
+              type="image/jpg"
+            />
+
+            <img
+              src="/Ihor-Ivanets/assets/mens-shirt-yasen-dekstop1440-766a05d5.jpg"
+              alt="Men's shirt Yasen"
+              class="collection-image"
+            />
+          </picture>
+        </div>
+        <div class="collection-h-p">
+          <h3 class="collection-list-title">Men's shirt Yasen</h3>
+          <p class="collection-list-text">1700 UAH</p>
+        </div>
+        <div class="collection-item-overlay">
+          <button class="collection-btn btn" type="button">
+            Buy<svg class="btn-icon hero-btn-icon" width="24" height="16">
+              <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="order">
+  <div class="container ord">
+    <div class="back-fon">
+      <div class="order-wrap">
+        <h2 id="order" class="title-order section-title">
+          <span class="accent-color">Your order</span> is our priority:
+          Personalized approach and quality of service
+        </h2>
+        <form action="order-form">
+          <div class="order-input">
+            <input
+              class="inp-order"
+              type="text"
+              name="user-name"
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+              placeholder="Enter your full name"
+              required
+            />
+
+            <input
+              class="inp-order"
+              type="email"
+              name="user-email"
+              placeholder="Enter your email"
+              required
+            />
+
+            <textarea
+              class="area-order"
+              name="user-comments"
+              placeholder="Comments"
+            ></textarea>
+          </div>
+          <button class="order-btn btn" type="submit">
+            Send
+            <svg class="btn-icon" width="26" height="10">
+              <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-arrow"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+      <div class="image-ord">
+        <picture
+          ><source
+            media="(min-width: 1440px)"
+            srcset="/Ihor-Ivanets/assets/womens-shirt-desktop1440-457acecc.webp 1x, /Ihor-Ivanets/assets/womens-shirt-desktop1440@2x-4cfea307.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              ./img/order/womens-shirt-desktop1440.jpg    1x,
+              ./img/order/womens-shirt-desktop1440@2x.jpg 2x
+            "
+            type="image/png"
+          />
+
+          <source
+            media="(min-width: 1280px)"
+            srcset="/Ihor-Ivanets/assets/womens-shirt-desktop1280-84ad238e.webp 1x, /Ihor-Ivanets/assets/womens-shirt-desktop1280@2x-8a03d49a.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/Ihor-Ivanets/assets/womens-shirt-desktop1280-209b438c.jpg 1x, /Ihor-Ivanets/assets/womens-shirt-desktop1280@2x-f301fe3a.jpg 2x"
+            type="image/png"
+          />
+
+          <source
+            media="(max-width: 1279px)"
+            srcset="/Ihor-Ivanets/assets/womens-shirt-tablet-9c441c6a.webp 1x, /Ihor-Ivanets/assets/womens-shirt-tablet@2x-a7330b18.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 1279px)"
+            srcset="/Ihor-Ivanets/assets/womens-shirt-tablet-297117a1.jpg 1x, /Ihor-Ivanets/assets/womens-shirt-tablet@2x-718f78e8.jpg 2x"
+            type="image/png"
+          />
+
+          <img
+            src="/Ihor-Ivanets/assets/womens-shirt-desktop1440-26756581.jpg"
+            alt="womens shirt"
+            class="order-img"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="testimonials" id="testimonials">
+  <div class="container">
+    <h2 class="section-title testimonials-section-title">Testimonials</h2>
+
+    <div class="swiper swiper-testimonials">
+      <ul class="testimonials-list swiper-wrapper">
+        <li class="testimonials-list-item swiper-slide">
+          <img
+            class="testimonials-list-avatar"
+            src="/Ihor-Ivanets/assets/avatar-1-a627e110.png"
+            srcset="/Ihor-Ivanets/assets/avatar-1-a627e110.png 1x, /Ihor-Ivanets/assets/avatar-1@2x-1dd49b49.png 2x"
+            alt="Photo Maria Tkachuk"
+            width="64"
+            height="64"
+          />
+
+          <h3 class="testimonials-title">Maria Tkachuk</h3>
+          <p class="testimonials-text">
+            I was pleasantly surprised by the variety of embroidery offered by
+            Vyshyvanka Vibes. They have models for every taste - from classic to
+            modern. I bought an embroidered dress to celebrate a special
+            occasion and received impeccable service and refinement in every
+            detail.
+          </p>
+        </li>
+
+        <li class="testimonials-list-item swiper-slide">
+          <img
+            class="testimonials-list-avatar"
+            src="/Ihor-Ivanets/assets/avatar-2-e2e4c791.png"
+            srcset="/Ihor-Ivanets/assets/avatar-2-e2e4c791.png 1x, /Ihor-Ivanets/assets/avatar-2@2x-f3fcdf6d.png 2x"
+            alt="Photo Sergey Rybachok"
+            width="64"
+            height="64"
+          />
+          <h3 class="testimonials-title">Sergey Rybachok</h3>
+          <p class="testimonials-text">
+            Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are
+            simply masterpieces! I fell in love with the quality of the
+            materials and the skill of the artisans behind each product. This is
+            my favorite embroidery shop where I always find something special
+            and unique.
+          </p>
+        </li>
+
+        <li class="testimonials-list-item swiper-slide">
+          <img
+            class="testimonials-list-avatar"
+            src="/Ihor-Ivanets/assets/avatar-3-93f54011.png"
+            srcset="/Ihor-Ivanets/assets/avatar-3-93f54011.png 1x, /Ihor-Ivanets/assets/avatar-3@2x-d5c55d20.png 2x"
+            alt="Photo Natalia Chatuk"
+            width="64"
+            height="64"
+          />
+          <h3 class="testimonials-title">Natalia Chatuk</h3>
+          <p class="testimonials-text">
+            Vyshyvanka Vibes is a real find for everyone who appreciates
+            Ukrainian culture. Their embroidery reflects the spirit and
+            traditions of our people. I not only buy embroidered shirts for
+            myself, but also give them to my friends abroad as a symbol of our
+            beauty and national pride.
+          </p>
+        </li>
+        <li class="testimonials-list-item swiper-slide">
+          <img
+            class="testimonials-list-avatar"
+            src="/Ihor-Ivanets/assets/avatar-1-a627e110.png"
+            srcset="/Ihor-Ivanets/assets/avatar-1-a627e110.png 1x, /Ihor-Ivanets/assets/avatar-1@2x-1dd49b49.png 2x"
+            alt="Photo Maria Tkachuk"
+            width="64"
+            height="64"
+          />
+
+          <h3 class="testimonials-title">Maria Tkachuk</h3>
+          <p class="testimonials-text">
+            I was pleasantly surprised by the variety of embroidery offered by
+            Vyshyvanka Vibes. They have models for every taste - from classic to
+            modern. I bought an embroidered dress to celebrate a special
+            occasion and received impeccable service and refinement in every
+            detail.
+          </p>
+        </li>
+
+        <li class="testimonials-list-item swiper-slide">
+          <img
+            class="testimonials-list-avatar"
+            src="/Ihor-Ivanets/assets/avatar-2-e2e4c791.png"
+            srcset="/Ihor-Ivanets/assets/avatar-2-e2e4c791.png 1x, /Ihor-Ivanets/assets/avatar-2@2x-f3fcdf6d.png 2x"
+            alt="Photo Sergey Rybachok"
+            width="64"
+            height="64"
+          />
+          <h3 class="testimonials-title">Sergey Rybachok</h3>
+          <p class="testimonials-text">
+            Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are
+            simply masterpieces! I fell in love with the quality of the
+            materials and the skill of the artisans behind each product. This is
+            my favorite embroidery shop where I always find something special
+            and unique.
+          </p>
+        </li>
+
+        <li class="testimonials-list-item swiper-slide">
+          <img
+            class="testimonials-list-avatar"
+            src="/Ihor-Ivanets/assets/avatar-3-93f54011.png"
+            srcset="/Ihor-Ivanets/assets/avatar-3-93f54011.png 1x, /Ihor-Ivanets/assets/avatar-3@2x-d5c55d20.png 2x"
+            alt="Photo Natalia Chatuk"
+            width="64"
+            height="64"
+          />
+          <h3 class="testimonials-title">Natalia Chatuk</h3>
+          <p class="testimonials-text">
+            Vyshyvanka Vibes is a real find for everyone who appreciates
+            Ukrainian culture. Their embroidery reflects the spirit and
+            traditions of our people. I not only buy embroidered shirts for
+            myself, but also give them to my friends abroad as a symbol of our
+            beauty and national pride.
+          </p>
+        </li>
+      </ul>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container container-footer">
+    <nav class="footer-nav">
+      <ul class="footer-menu">
+        <li class="footer-menu-item">
+          <a class="footer-menu-link link-underline" href="#about">ABOUT US</a>
+        </li>
+
+        <li class="footer-menu-item">
+          <a class="footer-menu-link link-underline" href="#collection"
+            >OUR COLLECTION</a
+          >
+        </li>
+
+        <li class="footer-menu-item">
+          <a class="footer-menu-link link-underline" href="#order"
+            >CUSTOMER ORDER</a
+          >
+        </li>
+
+        <li class="footer-menu-item">
+          <a class="footer-menu-link link-underline" href="#testimonials"
+            >TESTIMONIALS</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <h2 class="title-footer">
+      A touch of <span class="accent-color">Ukrainian</span> culture in every
+      embroidery
+    </h2>
+  </div>
+</footer>
+
+    <!-- MOBILE MENU -->
+<div class="backdrop" id="mobile-menu">
+  <div class="mobile-menu">
+    <div class="mobile-menu-top">
+      <address class="mobile-menu-phone">
+        <a class="mobile-menu-phone-link" href="tel:+380684439426"
+          >+380 (68) 443-94-26</a
+        >
+      </address>
+      <button class="mobile-menu-close-button" type="button">
+        <svg class="mobile-close-icon" width="36" height="36">
+          <use href="/Ihor-Ivanets/assets/icons-65d9e854.svg#icon-btn-close"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-menu-content">
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#about">About us</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#collection">Our collection </a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#order">Customer order</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#testimonials">Testimonials</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    
+  </body>
+</html>
